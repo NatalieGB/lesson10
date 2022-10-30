@@ -1,0 +1,410 @@
+.header-wrapper {
+    width: 100%;
+    height: 324px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../photos/Rectangle 193.png"), url("../photos/mohamed-ajufaan.png");
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+}
+.navigation-box {
+    max-width: 1083px;
+    width: 80%;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul {
+    display: flex;
+}
+.logo {
+    font-size: 14px;
+    font-family: 'Poppin Bold', sans-serif;
+}
+.burger-menu {
+    display: none;
+    color: white;
+    font-size: 25px;
+}
+.list-items {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    margin-left: 55px;
+}
+.active {
+    color: #5863F8;
+}
+.about-box {
+    max-width: 1083px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.about-text {
+    color: white;
+    font-size: 42px;
+    font-family: 'Poppins ExtraBold', sans-serif;
+}
+.home-box {
+    max-width: 1083px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
+.home-text {
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+}
+.divider {
+    height: 18px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 10px 0px 10px
+}
+.section1 {
+    max-width: 1083px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 90px auto;
+}
+.text-div {
+    max-width: 443px;
+    width: 100%;
+    margin-top: 42px;
+    flex-wrap: wrap;
+}
+.aboutus-text{
+    font-size: 14px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: bold;
+    color: #5863F8;
+}
+.heading1 {
+    max-width:374px;;
+    margin: 16px 0px 27px 0px;
+    font-size: 42px;
+    font-family: 'Poppins ExtraBold', sans-serif
+}
+.paragr1 {
+    font-size: 16px;
+    height: 78px;
+    text-align: left;
+    font-family: 'Poppins Medium', sans-serif;
+}
+.paragr2 {
+    font-size: 14px;
+    height: 78px;
+    text-align: left;
+    font-family: 'Poppins Regular', sans-serif;
+}
+.button {
+    width: 164px;
+    height: 50px;
+    background-color: #5863f8;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.fa-arrow-right{
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+}
+.photo-box {
+    max-width: 536px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.photo2 {
+    margin-left: 12px;
+}
+.photo3 {
+    margin-top: 12px;
+}
+.section2 {
+    background-image: url("../photos/Rectangle 209.png"), url("../photos/chris-lee-70l1t.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 612px;
+    margin: 0px auto;
+}
+.text-box-2 {
+    max-width: 1083px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    text-align: left;
+}
+.aboutus-text2 {
+    font-size: 14px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: bold;
+    color: #5863F8;
+    margin-top: 50px;
+}
+.section2-text {
+    max-width: 335px;
+    width: 100%;
+    font-size: 42px;
+    color: white;
+    margin-top: 10px;
+}
+.boxes-div {
+    max-width: 1083px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.box {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+.circle-blue{
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-hotel {
+    color: white;
+    font-size: 20px;
+}
+.boxes-div h3 {
+    width: 188px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Poppins SemiBold", sans-serif;
+    margin-top: 16px;
+}
+.boxes-div p {
+    width: 221px;
+    text-align: center;
+    font-family: "Poppins Medium", sans-serif;
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.text-box3 {
+    max-width: 512px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+.text-box3 h4 {
+    font-size: 14px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: bold;
+    color: #5863F8;
+    margin-top: 10px;
+}
+.text-box3 h3 {
+    max-width: 520px;
+    width: 100%;
+    font-size: 42px;
+    font-family: "Poppins ExtraBold", sans-serif;
+    margin-top: 10px;
+}
+.customer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+.customer p {
+    font-family: "Poppins SemiBold", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.text-box3 p {
+    max-width: 352px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Poppins Medium", sans-serif;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+.photo-box2 {
+    max-width: 583px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.text-box-4 {
+    max-width: 1083px;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.text-box-4 h4 {
+    font-size: 14px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: bold;
+    color: #5863F8;
+    margin-top: 10px;
+}
+.text-box-4 h3 {
+    max-width: 567px;
+    width: 100%;
+    font-size: 42px;
+    font-family: "Poppins ExtraBold", sans-serif;
+    margin-top: 10px;
+}
+.photo-box4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer-wrapper{
+    width: 100%;
+    background-color: black;
+    padding: 90px 0 40px 0;
+}
+.footer-container{
+    max-width: 1083px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.text-block-footer:nth-child(1){
+    width: 260px;
+}
+.footer-title1{
+    font-size: 24px;
+    color: white;
+    font-family: 'Poppins Bold', sans-serif;
+}
+.footer-para{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #B1B1B1;
+    line-height: 17px;
+    margin-top: 22px;
+}
+.icons-wrapper{
+    width: 126px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.frames{
+    width: 36px;
+    height: 36px;
+    background-color: blue;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands{
+    color: white;
+}
+.text-block-footer:nth-child(2){
+    margin-left: 55px;
+}
+.frames:nth-child(1){
+    background-color: #3B5998;
+}
+.frames:nth-child(2){
+    background-color: #55ACEE;
+}
+.frames:nth-child(3){
+    background-color: #DC4E41;
+}
+.footer-title{
+    font-size: 18px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    color: white;
+}
+.footer-list{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    line-height: 28px;
+    margin-top: 18px;
+}
+.color{
+    color: #5863F8;
+}
+.space{
+    margin-top: 17px;
+}
+.fa-envelope{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+.fa-phone{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+.fa-location-dot{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+.copy{
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #B1B1B1;
+}
